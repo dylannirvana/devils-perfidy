@@ -17,9 +17,9 @@
   .carousel-caption {
     // position: absolute;
     left: 0;
-    right: 55%;
-    top: 23%;
-    line-height: 200%;
+    right: 25%;
+    top: 18%;
+    line-height: 180%;
     // height: inherit;
     padding-left: 5%;
     padding-right: 20px;
@@ -34,6 +34,15 @@
     // & .btn {
     //   text-shadow: none; // No shadow for button elements in carousel-caption
     // }
+    @include breakpoint($medium) {
+      left: 0;
+      right: 55%;
+      top: 23%;
+      line-height: 200%;
+      // height: inherit;
+      padding-left: 5%;
+      padding-right: 20px;
+    }
   }
 
 
